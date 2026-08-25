@@ -101,15 +101,15 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "What total capital-borrowing limit for the Welsh Government was highlighted in the archive?",
+    "prompt": "What is the total capital-borrowing limit for the Welsh Government?",
     "answer": "£1 billion.",
     "archiveRef": "A23",
     "id": "rq015"
   },
   {
     "category": "British public administration",
-    "prompt": "To whom were England’s Regional Schools Commissioners accountable?",
-    "answer": "The Secretary of State for Education. They were renamed Regional Directors in 2022.",
+    "prompt": "To whom are England’s Regional Directors for schools accountable?",
+    "answer": "The Secretary of State for Education.",
     "archiveRef": "A23",
     "id": "rq016"
   },
@@ -122,7 +122,7 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "What crossing treatment did the archive say required central permission when used on a side road?",
+    "prompt": "What crossing treatment requires central government permission when used on a side road?",
     "answer": "A zebra crossing.",
     "archiveRef": "A23",
     "id": "rq018"
@@ -136,8 +136,8 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "Which council officer issues a section 114 report when unlawful expenditure or an unbalanced budget is looming?",
-    "answer": "The Chief Finance Officer, commonly called the section 151 officer.",
+    "prompt": "What’s the code number for the council officer who issues a section 114 report when unlawful expenditure or an unbalanced budget is looming?",
+    "answer": "The section 151 officer (Chief Finance Officer).",
     "archiveRef": "A15",
     "id": "rq020"
   },
@@ -178,14 +178,14 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "How much public investment over 30 years was attached to the 2015 Sheffield City Region devolution agreement in the archive?",
+    "prompt": "How much public investment over 30 years was attached to the 2015 Sheffield City Region devolution agreement?",
     "answer": "£900 million.",
     "archiveRef": "A15",
     "id": "rq026"
   },
   {
     "category": "British public administration",
-    "prompt": "According to the archived council story, what did a council do with a dead whale washed ashore?",
+    "prompt": "What did a council do with a dead whale washed ashore?",
     "answer": "It sent the whale to landfill.",
     "archiveRef": "A15",
     "id": "rq027"
@@ -255,24 +255,10 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "What resident’s discount on the London Congestion Charge appeared in the 2011 archive?",
+    "prompt": "What is the resident’s discount on the London Congestion Charge?",
     "answer": "90%.",
     "archiveRef": "A11",
     "id": "rq037"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "In the 2011 archive, how long was the simple answer used for a local connection through residence in a homelessness case?",
-    "answer": "Six months. This is a deliberately historical simplification; current statutory guidance uses more detailed tests.",
-    "archiveRef": "A11",
-    "id": "rq038"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "Roughly how much annual parking income did the 2011 archive attribute to Westminster City Council?",
-    "answer": "About £50 million, with any surplus constrained to specified transport-related purposes.",
-    "archiveRef": "A11",
-    "id": "rq039"
   },
   {
     "category": "British public administration",
@@ -283,15 +269,15 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "Which profession did the 2011 archive say was in especially short supply for special-educational-needs statementing?",
+    "prompt": "Which profession is in especially short supply for special educational needs?",
     "answer": "Speech and language therapists.",
     "archiveRef": "A11",
     "id": "rq041"
   },
   {
     "category": "British public administration",
-    "prompt": "What two constraints did the 2011 sheet give for local-authority trading in building-control services?",
-    "answer": "That it should make neither a loss nor a profit. This reproduces the sheet’s historical answer.",
+    "prompt": "What are the two constraints for local-authority trading in building-control services?",
+    "answer": "That it should make neither a loss nor a profit.",
     "archiveRef": "A11",
     "id": "rq042"
   },
@@ -304,13 +290,6 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "What is a unitary authority, and how many did the 2018 sheet say England then had?",
-    "answer": "A single-tier council providing the main local-government functions in its area; 55 in 2018.",
-    "archiveRef": "A18",
-    "id": "rq044"
-  },
-  {
-    "category": "British public administration",
     "prompt": "Who became Mayor of London in May 2016?",
     "answer": "Sadiq Khan.",
     "archiveRef": "A18",
@@ -318,56 +297,28 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "British public administration",
-    "prompt": "What share of English local-authority funding did the 2018 sheet say came from central government in 2016?",
-    "answer": "54%.",
-    "archiveRef": "A18",
-    "id": "rq046"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "How old did the NHS turn on 5 July 2018?",
-    "answer": "70.",
+    "prompt": "How old will the NHS turn on 5 July 2028?",
+    "answer": "80.",
     "archiveRef": "A18",
     "id": "rq047"
   },
   {
     "category": "British public administration",
-    "prompt": "What proportion of NHS staff did the 2018 sheet estimate were EU nationals?",
-    "answer": "About 5–6%.",
-    "archiveRef": "A18",
-    "id": "rq048"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "What was the title of the local-government podcast remembered in the 2015 archive?",
-    "answer": "Prime Domino.",
-    "archiveRef": "A15",
-    "id": "rq049"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "The 2015 Merton prompt had lost its portrait answer. The replacement asks: what was the building now used as Merton Civic Centre originally built to contain?",
+    "prompt": "What was the building now used as Merton Civic Centre originally built to contain?",
     "answer": "Offices and a supermarket.",
     "archiveRef": "R50",
     "id": "rq050"
   },
   {
     "category": "British public administration",
-    "prompt": "The 2015 Hammersmith wallpaper answer was missing. The replacement asks: whose heads are carved above the former ceremonial entrance to Hammersmith Town Hall?",
+    "prompt": "Whose heads are carved above the former ceremonial entrance to Hammersmith Town Hall?",
     "answer": "Father Thames.",
     "archiveRef": "R51",
     "id": "rq051"
   },
   {
     "category": "British public administration",
-    "prompt": "The 2015 South Lanarkshire model answer was missing. The replacement asks: what is the name of the Category A-listed, 17-storey council headquarters in Hamilton?",
-    "answer": "Lanark County Buildings (also called South Lanarkshire Council Headquarters).",
-    "archiveRef": "R52",
-    "id": "rq052"
-  },
-  {
-    "category": "British public administration",
-    "prompt": "The City of London “hidden glass” answer was missing. The replacement asks: what is the title of the Corporation officer whose office follows parliamentary business?",
+    "prompt": "What is the title of the Corporation officer whose office follows parliamentary business?",
     "answer": "The City Remembrancer.",
     "archiveRef": "R53",
     "id": "rq053"
@@ -410,7 +361,7 @@ window.RED_QUADRANT_QUESTIONS = [
   {
     "category": "British public administration",
     "prompt": "What happens to a forfeited Parliamentary election deposit?",
-    "answer": "It is sent to His Majesty, through the government process specified to returning officers.",
+    "answer": "It is sent to Her Majesty, through the government process specified to returning officers.",
     "archiveRef": "G19",
     "id": "rq059"
   },
@@ -427,13 +378,6 @@ window.RED_QUADRANT_QUESTIONS = [
     "answer": "35 days.",
     "archiveRef": "G19",
     "id": "rq061"
-  },
-  {
-    "category": "Things people asked councils",
-    "prompt": "A caller asked Stevenage Borough Council how much water to use when cooking what instant-noodle brand?",
-    "answer": "Super Noodles.",
-    "archiveRef": "A20I",
-    "id": "rq062"
   },
   {
     "category": "Things people asked councils",
@@ -556,13 +500,6 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "Government oddities",
-    "prompt": "Which workplace chat platform featured in the archive’s story about unusually named UK Civil Service channels?",
-    "answer": "Slack.",
-    "archiveRef": "A20I",
-    "id": "rq080"
-  },
-  {
-    "category": "Government oddities",
     "prompt": "Which European capital named previously anonymous routes with labels including “This Is Not a Street”?",
     "answer": "Brussels.",
     "archiveRef": "A20I",
@@ -577,13 +514,6 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "Government oddities",
-    "prompt": "The mayor of which Siberian city put 13 foreign-made official cars up for sale?",
-    "answer": "Yakutsk.",
-    "archiveRef": "A20I",
-    "id": "rq083"
-  },
-  {
-    "category": "Government oddities",
     "prompt": "Which two countries disputed the cross-border movements of reindeer?",
     "answer": "Norway and Sweden.",
     "archiveRef": "A20I",
@@ -595,13 +525,6 @@ window.RED_QUADRANT_QUESTIONS = [
     "answer": "Pain au chocolat and chocolatine.",
     "archiveRef": "A20I",
     "id": "rq085"
-  },
-  {
-    "category": "Government oddities",
-    "prompt": "Which country’s lower house dismissed roughly 200 “phantom” employees in the archived story?",
-    "answer": "Argentina.",
-    "archiveRef": "A20I",
-    "id": "rq086"
   },
   {
     "category": "Government oddities",
@@ -626,13 +549,6 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "Government oddities",
-    "prompt": "Officials in which country used Calvin Klein Obsession for Men to help lure a tigress?",
-    "answer": "India.",
-    "archiveRef": "A20I",
-    "id": "rq090"
-  },
-  {
-    "category": "Government oddities",
     "prompt": "Which country tested train speakers that barked and snorted to reduce deer collisions?",
     "answer": "Japan.",
     "archiveRef": "A20I",
@@ -644,13 +560,6 @@ window.RED_QUADRANT_QUESTIONS = [
     "answer": "Singapore.",
     "archiveRef": "A20I",
     "id": "rq092"
-  },
-  {
-    "category": "Government oddities",
-    "prompt": "Which country backed a technology and electronic-music festival near the Aral Sea?",
-    "answer": "Uzbekistan.",
-    "archiveRef": "A20I",
-    "id": "rq093"
   },
   {
     "category": "Government oddities",
@@ -682,7 +591,7 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "The 2020 files",
-    "prompt": "Roughly what share of county councils in the archive survey were confident of balancing their 2021/22 budgets without dramatic service reductions?",
+    "prompt": "Roughly what share of county councils were confident of balancing their 2021/22 budgets without dramatic service reductions?",
     "answer": "About one in five; the detailed survey figure was 22%.",
     "archiveRef": "A20Q",
     "id": "rq098"
@@ -710,7 +619,7 @@ window.RED_QUADRANT_QUESTIONS = [
   },
   {
     "category": "The 2020 files",
-    "prompt": "Approximately how much per day did NHS maternity litigation cost in the archived 2020 figure?",
+    "prompt": "Approximately how much per day did NHS maternity litigation cost in 2020?",
     "answer": "£6.5 million per day.",
     "archiveRef": "A20Q",
     "id": "rq102"
@@ -882,6 +791,27 @@ window.RED_QUADRANT_QUESTIONS = [
     "answer": "The National Archives.",
     "archiveRef": "N20",
     "id": "rq126"
+  },
+  {
+    "id": "rq127",
+    "category": "British public administration",
+    "prompt": "What portrait used to hang in Merton Civic Centre?",
+    "answer": "Her Majesty the Queen.",
+    "archiveRef": "A15"
+  },
+  {
+    "id": "rq128",
+    "category": "British public administration",
+    "prompt": "Whose wallpaper features in a committee room in Hammersmith Town Hall?",
+    "answer": "William Morris.",
+    "archiveRef": "A15"
+  },
+  {
+    "id": "rq129",
+    "category": "British public administration",
+    "prompt": "What is behind the hidden glass wall in the City of London Marketing Suite?",
+    "answer": "Roman remains.",
+    "archiveRef": "A15"
   }
 ];
 
