@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#2f1c11">
+    <meta name="description" content="Ten randomly selected questions to test your local government and public-administration geekiness.">
+    <meta property="og:title" content="RedQuadrant Christmas quiz (any time of year)">
+    <meta property="og:description" content="Test your local government geekiness with ten open-answer questions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://antlerboy.github.io/RedQuadrantChristmasquiz/">
+    <title>RedQuadrant Christmas quiz (any time of year)</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#quiz">Skip to the quiz</a>
+    <header class="site-bar">
+      <div class="frame site-bar-inner">
+        <a class="brand" href="https://www.redquadrant.com/" target="_blank" rel="noreferrer" aria-label="RedQuadrant website">
+          <span>Red</span>Quadrant
+        </a>
+        <span class="site-bar-label">The municipal Christmas quiz</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="frame hero-inner">
+          <div class="kicker-row">
+            <p class="kicker">A seriously unserious municipal challenge</p>
+            <span class="stamp">Any time of year</span>
+          </div>
+          <h1>RedQuadrant <span>Christmas quiz</span></h1>
+          <p class="subtitle">Test your local government geekiness.</p>
+          <p class="credit">
+            Inspired by <strong>17 glorious years of the RedQuadrant Xmas quiz</strong> and
+            <a href="https://substack.com/home/post/p-212045705" target="_blank" rel="noreferrer">Jack Shaw’s excellent quiz</a>.
+          </p>
+        </div>
+      </section>
+
+      <section class="quiz-shell frame" id="quiz" aria-label="Local government quiz">
+        <div class="intro">
+          <p>Ten open-answer questions are drawn at random from <strong>126</strong> public-sector curiosities, council-call oddities and bits of glorious municipal arcana.</p>
+          <p class="smallprint">We mark generously: capitals, punctuation and small typos do not count. Some archive questions are deliberately historical, so dates in the wording matter.</p>
+        </div>
+
+        <div class="quiz-runner" id="quiz-runner">
+          <div class="progress-row">
+            <p>Question <strong id="question-number">1</strong> of 10</p>
+            <progress id="progress" value="1" max="10">Question 1 of 10</progress>
+          </div>
+          <form class="question-card" id="question-form">
+            <p class="question-category" id="question-category"></p>
+            <h2 id="question-text">Shuffling the committee papers…</h2>
+            <label for="open-answer">Your answer</label>
+            <input id="open-answer" name="answer" type="text" autocomplete="off" placeholder="Type what you think…" required>
+            <div class="question-actions">
+              <button class="secondary-button" id="previous-button" type="button">Previous</button>
+              <button class="primary-button" id="next-button" type="submit">Next question</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="results" id="results" hidden aria-live="polite">
+          <section class="score-card">
+            <p class="score-overline">Your municipal-geek score</p>
+            <p class="score-number"><strong id="score-number">0</strong><span>/10</span></p>
+            <h2 id="score-title"></h2>
+            <p id="score-detail"></p>
+            <button class="primary-button" id="restart-button" type="button">Try another ten</button>
+          </section>
+
+          <section class="scale" aria-labelledby="scale-title">
+            <h2 id="scale-title">The official scale of local government geekiness</h2>
+            <div class="scale-grid" id="scale-grid"></div>
+          </section>
+
+          <section class="answer-review" aria-labelledby="review-title">
+            <div class="review-heading">
+              <div>
+                <p class="score-overline">The reckoning</p>
+                <h2 id="review-title">Your answer sheet</h2>
+              </div>
+              <p>Correct answers are revealed for anything the quiz marked wrong.</p>
+            </div>
+            <ol id="answer-list"></ol>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="frame footer-inner">
+        <p>Made for people who have opinions about committee constitutions, cattle-grids and section 114 notices.</p>
+        <p>
+          Inspired by 17 glorious years of the RedQuadrant Xmas quiz and
+          <a href="https://substack.com/home/post/p-212045705" target="_blank" rel="noreferrer">Jack Shaw’s excellent quiz</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./questions.js"></script>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
